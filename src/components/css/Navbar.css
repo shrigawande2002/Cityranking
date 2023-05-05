@@ -1,0 +1,381 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar {
+    background-color: #00ACC1;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 3rem;
+}
+
+.navbar ul {
+    color: white;
+    list-style: none;
+    display: flex;
+    font-weight: 700;
+    font-size: 16px;
+    padding: 2rem;
+
+}
+
+.navbar ul li a {
+    color: white;
+    list-style: none;
+    text-decoration: none;
+    padding: 2rem;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+
+}
+
+.logo {
+    padding-left: 26rem;
+    color: white;
+
+
+}
+
+.logo p {
+    border: 3px solid white;
+    padding: 0.3rem;
+    font-size: 1.1rem;
+    font-weight: 800;
+}
+
+/* css for Black */
+.black-container {
+    background-color: #343935;
+    height: 20rem;
+    width: 100%;
+}
+
+/* css for Box.js */
+
+.card {
+    margin-bottom: 2rem;
+    margin-left: 1rem;
+    display: flex;
+
+}
+
+.boxx {
+    height: 18vh;
+    background-color: white;
+    width: 22.5vw;
+    margin: 0.9rem;
+    margin-top: 2.6rem;
+    border-radius: 11px;
+    text-align: center;
+    border: 1px solid #ddd;
+    box-shadow: 2px 2px 2px gray;
+    transition: 1s;
+
+}
+
+.innerbox {
+    background-color: #952CAE;
+    position: relative;
+    top: -1rem;
+    right: -1.5rem;
+    height: 4rem;
+    width: 4vw;
+    padding: 1rem;
+    color: white;
+    border-radius: 0.3rem;
+
+}
+
+.boxx h4 {
+    font-size: 19px;
+    font-weight: 100;
+    position: relative;
+    top: -3rem;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+}
+
+.boxx h2 {
+    position: relative;
+    font-weight: 200;
+    top: -2rem;
+    font-family: 'Roboto', sans-serif;
+
+
+}
+
+.boxx:hover {
+    transform: scale(1.1);
+    z-index: 2;
+}
+
+.innerbox:hover {
+    background-color: #E22D6D;
+}
+
+/* css for Container */
+
+.main-container {
+    background-color: #EEEEEE;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 300px 300px 300px;
+}
+
+.box-container {
+    background-color: white;
+    height: 14.5rem;
+    margin-left: 2rem;
+    width: 94.9%;
+    border-radius: 0.3rem;
+    box-shadow: 2px 2px 4px gray;
+}
+
+.box-container p {
+    color: #00ACC1;
+    margin-left: 1.5rem;
+    margin-top: 1rem;
+    font-size: 1rem;
+}
+
+.box-container select {
+    margin-left: 1.4rem;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid #00ACC1;
+    box-sizing: none;
+    outline: none;
+    width: 35.5%;
+}
+
+.heading p {
+    margin-top: 1rem;
+    font-size: 1rem;
+}
+
+.heading select {
+    margin-left: 1.4rem;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid #00ACC1;
+    box-sizing: none;
+    outline: none;
+    width: 35.5%;
+}
+
+
+
+.box-container2 {
+    background-color: white;
+    height: 12.5rem;
+    margin-left: 2rem;
+    width: 94.9%;
+    border-radius: 0.3rem;
+    box-shadow: 2px 2px 4px gray;
+    border-radius: 0.3rem;
+
+}
+
+.box-container3 {
+    background-color: white;
+    height: 12.5rem;
+    margin-left: 2rem;
+    width: 94.9%;
+    border-radius: 0.3rem;
+    box-shadow: 2px 2px 4px gray;
+    border-radius: 0.3rem;
+
+}
+
+.map-box {
+    background-color: white;
+    height: 40rem;
+    grid-column: 2/3;
+    grid-row: 1/3;
+    width: 94%;
+    margin-left: 1.2rem;
+    border-radius: 0.3rem;
+    box-shadow: 2px 2px 4px gray;
+    border-radius: 0.3rem;
+}
+
+/* css for map */
+
+
+
+/* css for Rusult */
+.table {
+    width: 100%;
+    border: 2px solid #ddd;
+    border-radius: 0.3rem;
+    box-shadow: 1px 1px 2px gray;
+    /* position: relative; */
+    /* top: -32.7rem; */
+    padding: 1.5rem;
+    text-align: center;
+
+    background-color: white;
+}
+
+.table table {
+    border-collapse: collapse;
+    align-items: center;
+    width: 100%;
+}
+
+
+
+.table th,
+td {
+    border-bottom: 1px solid #ddd;
+    border-collapse: 0;
+    padding: 1rem;
+    padding-left: 0rem;
+    color: #00ACC1;
+}
+
+.table th {
+    color: black;
+}
+
+
+.table table input {
+    text-decoration: none;
+
+}
+
+.Heading {
+    position: relative;
+    right: 2rem;
+}
+
+
+.rank {
+    color: white;
+    background-color: #4CAF50;
+    height: 2.5rem;
+    width: 2.5rem;
+    padding: 0.4rem;
+    border-radius: 4rem;
+    font-size: 1.3rem;
+    font-weight: 600;
+
+}
+
+.checkbox {
+    height: 2.4rem;
+    border-radius: 3rem;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    padding: 0.6rem;
+}
+
+.checkbox:hover {
+    background-color: rgb(241, 230, 211);
+}
+
+.checkbox input {
+    height: 1.1rem;
+    width: 1.1rem;
+    accent-color: #00ACC1;
+    cursor: pointer;
+}
+
+.checkbox input::after {
+    color: white;
+    cursor: pointer;
+
+}
+
+.data a {
+
+    position: relative;
+    top: 0.1rem;
+    color: #00ACC1;
+}
+
+.score {
+    color: black;
+}
+
+
+.map-div {
+    border-radius: 1rem;
+}
+
+/* css for infopage */
+
+footer {
+    height: 2rem;
+    background-color: #00ACC1;
+    color: white;
+    text-align: center;
+    margin-top: 5rem;
+}
+
+/* css for Detailbox */
+
+.main-box {
+
+    width: 65%;
+    height: 30rem;
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    margin: auto;
+    justify-content: center;
+    margin-left: 33rem;
+    flex-wrap: wrap;
+    border-radius: 0.3rem;
+    background-color: white;
+    box-shadow: 2px 2px 4px gray;
+
+}
+
+.detailbox-innerbox {
+    width: 45%;
+    border-radius: 0.3rem;
+    box-shadow: 2px 2px 2px gray;
+    background-color: #F9F9F9;
+    height: 7rem;
+}
+
+.detailbox-innerbox h3 {
+    margin: auto;
+    padding: 2rem;
+
+}
+
+.img {
+    width: 30%;
+    margin-top: 10rem;
+    margin-left: 2rem;
+    border-radius: 0.3rem;
+    box-shadow: 2px 2px 1px gray;
+    height: 35rem;
+    background-color: white;
+}
+
+.headofbox {
+    background-color: #00ACC1;
+    color: white;
+    width: 90%;
+    height: 3.5rem;
+    border-radius: 0.5rem;
+    margin-left: 3.5rem;
+    margin-top: -2.1rem;
+    align-items: center;
+    text-align: center;
+    padding: 0.7rem;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
